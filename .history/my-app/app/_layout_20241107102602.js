@@ -29,8 +29,7 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="registeration" />
-        <Stack.Screen name="login" />
+        <Stack.Screen name
       </Stack>
     </ThemeProvider>
   );

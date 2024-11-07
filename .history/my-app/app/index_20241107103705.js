@@ -7,7 +7,7 @@ export default function home() {
  
   return (
     <View>
-      <Link href="/login">Go to login</Link>
+      <Link href="/registeration">Go to registeration</Link>
     </View>
   );
 }
